@@ -1,0 +1,18 @@
+.tabs {
+  @apply w-full flex items-center space-x-2 overflow-x-scroll;
+  @apply md:static md:space-x-3;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.tab {
+  @apply text-xs/normal text-gray-500 whitespace-nowrap;
+  @apply py-2.5 px-5 rounded-full bg-neutral-50 md:hover:bg-[#222b32]/10;
+  @apply cursor-pointer select-none transition-all;
+}
+
+.tab.tab-active {
+  @apply text-white bg-[#222b32];
+}
