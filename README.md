@@ -24,7 +24,7 @@ pnpm dev
 # 编译部署
 pnpm build
 
-# pm2 启动应用 
+# pm2 启动应用
 pm2 start ecosystem.config.cjs
 
 # pm2 重启应用
@@ -38,8 +38,6 @@ pm2 restart ecosystem.config.cjs
 ## 国际化
 
 国际化的模块使用的是 [@nuxtjs/i18n](https://v8.i18n.nuxtjs.org)，它内置了 [vue-i18n](https://vue-i18n.intlify.dev)。
-语言包采用 [phrase](https://phrase.com) 管理平台。
-
 项目中管理语言在 `nuxt.config.ts` 文件中 `i18n.locales` 配置。
 
 ## 主题配置
