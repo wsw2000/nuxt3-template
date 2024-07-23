@@ -6,5 +6,8 @@
     "banner_title": "Web3 One-Stop Navigation",
     "banner_info_txt": "Helping {tradingQuantity} Users Worldwide Enter the Web3 World",
     "banner_color_txt": "300 Million"
+  },
+  "header": {
+    "language": "language"
   }
 }

@@ -23,7 +23,6 @@ const handleSwitch = (locale: string) => {
   <ADropdown v-model:open="open" :trigger="['click']" placement="bottomRight">
     <div class="flex cursor-pointer items-center max-md:w-full max-md:justify-between">
       <div class="flex items-center md:hidden">
-        <Icon class="mr-1 text-xl/none" name="website" />
         <span class="text-sm/none">{{ $t('header.language') }}</span>
       </div>
       <div class="flex items-center">

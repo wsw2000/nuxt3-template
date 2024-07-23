@@ -41,8 +41,6 @@ const menus = [
     </div>
 
     <div class="flex items-center space-x-4">
-      <HeaderSearch />
-      <CurrencySwitch class="max-[992px]:hidden" />
       <LocaleSwitch class="max-[992px]:hidden" />
       <div class="cursor-pointer min-[992px]:hidden" @click="drawerOpen = !drawerOpen">
         <CloseOutlined v-if="drawerOpen" />
